@@ -1,0 +1,21 @@
+.navbar-container {
+    padding: 20px; 
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    .nav-grid-1 {
+        img {
+            width: 250px; 
+        }
+    }
+
+    .nav-grid-2 {
+        display: flex; 
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+            color: #000000; 
+        }
+        padding: 10px;
+    }
+}
