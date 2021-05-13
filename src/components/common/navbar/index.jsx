@@ -1,26 +1,41 @@
 import React from 'react';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import { Link } from 'react-router-dom';
-import logo from './assets/logo.png'
+import logo from './assets/logo.svg'
 import './index.scss'
 
 
 export default class NavBar extends React.Component {
     render() {
-        return(
+        return (
             <React.Fragment>
-                <div className="navbar-container">
-                    <div className="nav-grid-1">
-                        <img src={logo} alt="company logo" />
-                    </div>
-                    <div className="nav-grid-2">
-                        <Link to={""} > <b>Home</b> </Link>
-                        <Link to={""}> About Us </Link>
-                        <Link to={""}> Services </Link>
-                        <Link to={""}> Partners </Link>
-                        <Link to={""}> Contact Us </Link>
-
-                    </div>
-                </div>
+                <Navbar collapseOnSelect fixed="top" expand="lg" bg="light" variant="light">
+                        <Navbar.Brand>
+                            <img src={logo} height="40" alt="company logo" />
+                        </Navbar.Brand>
+                        <Navbar.Toggle aria-controls="responsive-nav-bar-1"/>
+                        <NavbarCollapse className="navbar-container-items">
+                            <Nav>
+                                <Nav.Item >
+                                    <Nav.Link href="">Home</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item >
+                                    <Nav.Link href="">About Us</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item >
+                                    <Nav.Link href="">Services</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item >
+                                    <Nav.Link href="">Partners</Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item >
+                                    <Nav.Link href="">Contact Us</Nav.Link>
+                                </Nav.Item>
+                                
+                            </Nav>
+                        </NavbarCollapse>
+                </Navbar>
             </React.Fragment>
         )
     }

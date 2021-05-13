@@ -1,0 +1,40 @@
+.we-deliver-img-component{
+    text-align: center;
+    display: inline-block;
+    padding: 2vh;
+    
+    .widc-image-holder{
+        background-color: white; 
+        border-radius: 50%; 
+        padding: 2vh; 
+        width: max-content;
+
+        .wdic-img{
+            -webkit-filter: grayscale(100%); 
+            filter: grayscale(100%);
+            height: 100px;
+        }
+        .wdic-img:hover{
+            -webkit-filter: grayscale(0%); 
+            filter: grayscale(0%);
+        }
+    }
+    
+    .wdic-text{
+        margin: 0;
+        margin-top: 1vh;
+        font-size: 18px; 
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .we-deliver-img-component{
+        .widc-image-holder{
+            .wdic-img{
+                -webkit-filter: grayscale(0%); 
+                filter: grayscale(0%);
+            }
+        }
+    }
+}
