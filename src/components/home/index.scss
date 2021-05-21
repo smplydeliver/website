@@ -34,7 +34,7 @@
     }
 
     .home-we-deliver {
-        height: 100vh;
+
 
         .we-deliver-heading {
             padding-top: 5vh;
@@ -57,6 +57,29 @@
             width: 100%;
             padding: 2vh;
         }
+    }
+
+    .register-early-bird{
+        .reb-heading {
+            padding-top: 5vh;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 800;
+            span {
+                color: #ffbb00;
+            }
+        }
+        .reb-heading-2 {
+            // text-align: center;
+            margin-top: 0;
+            font-size: 18px;
+        }
+        .img-hero {
+            padding: 0;
+            width: 100%;
+            max-width: 1000px;
+        }
+
     }
 }
 

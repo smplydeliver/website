@@ -3,7 +3,7 @@ import "./index.scss";
 
 export default function WeDeliverImgComponent(props) {
     return (
-        <div className="we-deliver-img-component col-xl-2">
+        <div className={`we-deliver-img-component col-xl-${props.col}`}>
             <center>
             <div className="widc-image-holder">
                     <img className="wdic-img" src={props.photo} alt={props.name} />
