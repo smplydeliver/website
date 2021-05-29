@@ -16,8 +16,8 @@ import p11 from '../assets/11.svg';
 import p12 from '../assets/12.svg';
 import p13 from '../assets/13.svg';
 import p14 from '../assets/14.svg';
-
 import WeDeliverImgComponent from '../common/weDeliverImgComponent';
+import Footer from '../common/footer';
 export default class Home extends React.Component {
     render() {
         return (
@@ -61,19 +61,26 @@ export default class Home extends React.Component {
                         </div>
                         <div className="register-early-bird">
                             <p className="reb-heading"> REGISTER <span>FOR BENIFITS</span> </p>
-                            <p className="reb-heading-2 text-center container"> Enjoy early bird benifits by registering yourself with us</p>
+                            <p className="reb-heading-2 text-center container"> Enjoy early bird benifits by registering yourself with us.</p>
                             <div className="row">
-                                <div className="col-xl-8">
-                                    <img src={hero2}  alt="hero" className="img-fluid img-hero" />
+                                <div className="col-xl-5">
+                                    <img src={hero2} alt="hero" className="img-fluid img-hero" />
                                 </div>
-                                <div className="col-xl-4">
-                               
+                                <div className="col-xl-5">
+                                    <p className="reb-heading-3"> Early Bird <span>Benifits </span></p>
+                                    <ul>
+                                        <li> <p className="reb-list"> Receive exclusive access to early discounts & offers over other members. </p> </li>
+                                        <li> <p className="reb-list"> No delivery charges for upto 25 deliveries when you place the order via app. </p> </li>
+                                        <li> <p className="reb-list"> Receive 50 priority deliveries (guaranteed delivery in 30 mins) for orders you place via app. </p> </li>
+                                        <li> <p className="reb-list"> This offer is valid for only first 100 customers. Offer is given on first come first serve basis  </p> </li>
+                                        <RegisterButton color="yellow" value="Register Now" />
+                                    </ul>
                                 </div>
-                            
                             </div>
                         </div>
+                        
                     </div>
-
+                    <Footer/>
                 </Layout>
             </React.Fragment>
         )

@@ -63,7 +63,7 @@
         .reb-heading {
             padding-top: 5vh;
             text-align: center;
-            font-size: 48px;
+            font-size: 40px;
             font-weight: 800;
             span {
                 color: #ffbb00;
@@ -74,10 +74,21 @@
             margin-top: 0;
             font-size: 18px;
         }
+        .reb-heading-3 {
+            padding-top: 5vh;
+            font-size: 24px;
+            font-weight: 800;
+            span {
+                color: #ffbb00;
+            }
+        }
         .img-hero {
             padding: 0;
             width: 100%;
             max-width: 1000px;
+        }
+        .reb-list {
+           font-size: 20px;
         }
 
     }

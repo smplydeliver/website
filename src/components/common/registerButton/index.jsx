@@ -3,6 +3,6 @@ import './index.scss';
 
 export default function RegisterButton(props){
     return(
-        <input type="button" className="register-button-style" value={props.value} onClick={props.onClick} />
+        <input type="button" className={typeof(props.color) == 'undefined'?"register-button-style":"register-button-style-2"} value={props.value} onClick={props.onClick} />
     ); 
 }
