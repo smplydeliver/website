@@ -1,0 +1,32 @@
+.registration-component {
+    .row {
+        margin: 0;
+    }
+
+    padding-top: 10vh;
+    // padding-left: 5vh;
+    // padding-right: 5vh;
+    .reg-title{
+        font-size: 48px;
+        font-weight: 800;
+        span{
+            color: #ffbb00;
+        }
+    }
+    .reg-sub-title{
+        font-size: 18px;
+        font-weight: 500;
+        span{
+            font-weight: 800;
+        }
+    }
+
+    .form-container{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    .btn-text{
+        font-weight: 700;
+    }
+}

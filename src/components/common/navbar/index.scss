@@ -1,3 +1,14 @@
 .navbar-container-items {
     justify-content: flex-end;
+    font-weight: 500;
+    
+    .nav-item {
+        padding-top: 0vh;
+    }
+    .btn-text{
+        font-weight: 700;
+    }
+    input{
+        width: 100%;
+    }
 }

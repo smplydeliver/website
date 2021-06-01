@@ -1,0 +1,31 @@
+.about-container {
+    .about {
+        background-color: #ffbb00;
+        padding-bottom: 2vh;
+        .about-title {
+            padding-top: 10vh;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 800;
+            span {
+                font-weight: 500;
+            }
+        }
+        .about-sub-title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            span {
+                font-weight: 800;
+            }
+        }
+    }
+    .title {
+
+        font-size: 54px;
+        font-weight: 800;
+    }
+    .sub-title{
+        font-size: 20px;
+    }
+}

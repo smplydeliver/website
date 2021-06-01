@@ -1,0 +1,75 @@
+.business-with-smplydeliver {
+    .row {
+        margin: 0;
+    }
+
+    .bwsd-section-1 {
+        background-color: #ffbb00;
+        padding-bottom: 2vh;
+        .bwsd-title {
+            padding-top: 10vh;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 800;
+            span {
+                font-weight: 500;
+            }
+        }
+        .bwsd-sub-title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            span {
+                font-weight: 800;
+            }
+        }
+    }
+    .bwsd-section-2 {
+        background-color: #f3f3f3;
+        text-align: center;
+        .bwsd-title-2 {
+            padding-top: 2vh;
+            text-align: center;
+            font-size: 34px;
+            font-weight: 800;
+        }
+    }
+    .bwsd-section-3 {
+        padding-top: 5vh;
+
+        .bwsd-title-3 {
+            padding-top: 2vh;
+            text-align: center;
+            font-size: 34px;
+            font-weight: 800;
+            span {
+                color: #ffbb00;
+            }
+        }
+        .bwsd-sub-title {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            span {
+                font-weight: 800;
+            }
+        }
+        
+        .reb-heading-3 {
+            padding-top: 5vh;
+            font-size: 24px;
+            font-weight: 800;
+            span {
+                color: #ffbb00;
+            }
+        }
+        .reb-list {
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        .btn-text {
+            font-weight: 700;
+        }
+    }
+}

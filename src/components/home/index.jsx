@@ -17,7 +17,6 @@ import p12 from '../assets/12.svg';
 import p13 from '../assets/13.svg';
 import p14 from '../assets/14.svg';
 import WeDeliverImgComponent from '../common/weDeliverImgComponent';
-import Footer from '../common/footer';
 export default class Home extends React.Component {
     render() {
         return (
@@ -29,7 +28,7 @@ export default class Home extends React.Component {
                                 <div className="heading-holder col-xl-4 ">
                                     <p className="heading"> Order items from your favorite stores. </p>
                                     <p className="sub-heading">Order groceries, food, fruits, vegitables, medicines and many more from nearby stores and vendors to your doorstep. </p>
-                                    <RegisterButton value="Register Now" />
+                                    <RegisterButton onClick={() => this.props.history.push('/user/register')}  value="Register Now" />
                                 </div>
                                 <div className="hero-holder col-xl-8">
                                     <img src={hero} alt="hero" className="img-fluid img-hero" />
@@ -73,14 +72,13 @@ export default class Home extends React.Component {
                                         <li> <p className="reb-list"> No delivery charges for upto 25 deliveries when you place the order via app. </p> </li>
                                         <li> <p className="reb-list"> Receive 50 priority deliveries (guaranteed delivery in 30 mins) for orders you place via app. </p> </li>
                                         <li> <p className="reb-list"> This offer is valid for only first 100 customers. Offer is given on first come first serve basis  </p> </li>
-                                        <RegisterButton color="yellow" value="Register Now" />
+                                        <input type="button" className="btn btn-md btn-warning btn-text" value="Register Now" />
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         
                     </div>
-                    <Footer/>
                 </Layout>
             </React.Fragment>
         )
