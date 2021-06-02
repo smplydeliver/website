@@ -72,7 +72,7 @@ export default class Home extends React.Component {
                                         <li> <p className="reb-list"> No delivery charges for upto 25 deliveries when you place the order via app. </p> </li>
                                         <li> <p className="reb-list"> Receive 50 priority deliveries (guaranteed delivery in 30 mins) for orders you place via app. </p> </li>
                                         <li> <p className="reb-list"> This offer is valid for only first 100 customers. Offer is given on first come first serve basis  </p> </li>
-                                        <input type="button" className="btn btn-md btn-warning btn-text" value="Register Now" />
+                                        <input type="button" onClick={() => this.props.history.push('/user/register')} className="btn btn-md btn-warning btn-text" value="Register Now" />
                                     </ul>
                                 </div>
                             </div>
