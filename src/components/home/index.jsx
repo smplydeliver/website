@@ -27,7 +27,7 @@ export default class Home extends React.Component {
                             <div className="row">
                                 <div className="heading-holder col-xl-4 ">
                                     <p className="heading"> Order items from your favourite stores. </p>
-                                    <p className="sub-heading">Order food, fruits and vegetables, grocery,  medicines, stationery, Pet supplies, meat and fish etc
+                                    <p className="sub-heading">Order food, fruits and vegetables, grocery,  medicines, stationery, Pet supplies, meat and fish, etc.
                                     from nearby stores & vendors to your doorstep. </p>
                                     <RegisterButton onClick={() => this.props.history.push('/user/register')}  value="Register Now" />
                                 </div>
