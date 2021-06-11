@@ -15,13 +15,12 @@ export default function About(props) {
                 </div>
                 <p className="title container"> Connecting Stores & Customers </p>
                 <p className="sub-title container">
-                    Smply deliver is an online platform where you can order groceries, medicines, food and other
-                    daily and essential items from your nearby store. Our journey began with a problem of getting items delivered to doorstep from near by stores.
-                    Our team found out a solution to resolve this problem by focusing on logistics and bringing stores to customer's phone in a single tap.
+                    Have you ever imagined getting your essentials to your  needs delivered to your home, all at just a click away?
+                    Smply deliver is the easiest way to order food  fruits and vegetables, grocery, medicines, stationery,
+                    Pet-supplies, meat and fish, food, etc. from your nearby hyperlocal.
+
                 </p>
-                <p className="sub-title container">
-                    Join us on our journey, we are looking forward to serve you better :)
-                </p>
+                <p className="sub-title container"> We are looking forward to serving you better with Smply deliver. </p>
             </div>
         </Layout>
     );

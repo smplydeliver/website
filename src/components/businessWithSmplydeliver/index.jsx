@@ -60,16 +60,16 @@ export default class BusinessWithSmplydeliver extends React.Component {
 
                     </div>
                     <div className="bwsd-section-3">
-                    <p className="bwsd-title-3"> Register With Us For <span>Early Bird Benifits</span>  </p>
-                    <p className="bwsd-sub-title"> Enjoy early bird benifits by registering your store with us.</p>
+                    <p className="bwsd-title-3"> Register With Us For <span>Early Bird Benefits</span>  </p>
+                    <p className="bwsd-sub-title"> Enjoy early bird benefits by registering your store with us.</p>
                     <div className="row">
                                 <div className="col-xl-5">
                                     <img src={b7} alt="hero" className="img-fluid img-hero" />
                                 </div>
                                 <div className="col-xl-5">
-                                    <p className="reb-heading-3"> Early Bird <span>Benifits </span></p>
+                                    <p className="reb-heading-3"> Early Bird <span>Benefits </span></p>
                                     <ul>
-                                        <li> <p className="reb-list"> Avail 4 months free advertisement on our app.   </p> </li>
+                                        <li> <p className="reb-list"> Avail 4 months free advertisement on our app.</p> </li>
                                         <li> <p className="reb-list"> Premium Seller Tag for 2 months. </p> </li>
                                         <input type="button" onClick={() => this.props.history.push('/business/register')} className="btn btn-md btn-warning btn-text" value="Register Now" />
                                         

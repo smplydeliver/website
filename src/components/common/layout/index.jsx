@@ -3,10 +3,7 @@ import Footer from '../footer';
 import NavBar from '../navbar';
 
 export default class Layout extends React.Component {
-    constructor(props) {
-        super(props);
-
-    }
+    
     render() {
         return (
             <div>

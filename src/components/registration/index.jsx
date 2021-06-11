@@ -56,12 +56,12 @@ export default class Registration extends React.Component {
             <Layout>
                 <div className="registration-component">
                     <center>
-                        <p className="reg-title"> Early Bird <span>Registration</span> </p>
-                        <p className="reg-sub-title"> Register to <span>Smply</span>deliver early bird benifits programe to avail discounts & offers.  </p>
+                        <p className="reg-title"> Early Bird <span>Registration (For Customers)</span> </p>
+                        <p className="reg-sub-title"> Register to <span>Smply</span>deliver early bird benefits programe to avail discounts & offers.  </p>
                     </center>
                     <div className="row">
                         <div className="col-xl-5">
-                            <img src={ebb} className="img-fluid" />
+                            <img src={ebb} className="img-fluid" alt="register-illustration" />
                         </div>
                         <div className="col-xl-5 form-container">
                         <p className="reg-sub-title"> Fill up the details in the form given below  </p>

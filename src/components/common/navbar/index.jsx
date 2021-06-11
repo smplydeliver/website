@@ -17,6 +17,9 @@ export default class NavBar extends React.Component {
                         <Navbar.Toggle aria-controls="responsive-nav-bar-1"/>
                         <NavbarCollapse className="navbar-container-items">
                             <Nav>
+                            <Nav.Item >
+                                    <Nav.Link href="/">Home</Nav.Link>
+                                </Nav.Item>
                                 <Nav.Item >
                                     <Nav.Link href="/about">About</Nav.Link>
                                 </Nav.Item>

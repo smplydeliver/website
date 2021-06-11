@@ -57,8 +57,7 @@ export default class Footer extends React.Component {
             <div className="contact-us-section">
 
                 <div>
-                    <p className="cu-heading"> Contact Us  </p>
-                    <p className="cu-subtext"> Please feel free to connect with us. Our team is willing to serve better. Send us a message by simply filling up this form. </p>
+                    <p className="cu-heading"> Tell us your Queries, We are Listening </p>
                     <form onSubmit={this.onSubmit}>
                         <TextBox type="email" name="email" required={true} onChange={(e) => this.onChange(e)} placeholder="Email" />
                         <TextBox type="text" name="subject" required={true} onChange={(e) => this.onChange(e)} placeholder="Subject" />
@@ -78,15 +77,15 @@ export default class Footer extends React.Component {
                 </div>
                 <div className="footer-last row">
                     <div className="col-xl-5">
-                        <img src={logo} className="logo-footer img-fluid" />
+                        <img src={logo} alt="logo" className="logo-footer img-fluid" />
                     </div>
                     <div className="col-xl-5">
                         <p className="footer-last-copy"> Copyright © 2021 Smplydeliver </p>
                     </div>
                     <div className="col-xl-2 footer-last-inline ">
-                        <a className="footer-last-link" href="https://www.facebook.com/Smply-Deliver-110876137774251" target="_blank"> Facebook </a>
-                        <a className="footer-last-link" href="https://www.instagram.com/smplydeliver/" target="_blank"> Instagram </a>
-                        <a className="footer-last-link" href="https://www.linkedin.com/company/smplydeliver" target="_blank"> LinkedIn </a>
+                        <a className="footer-last-link" rel="noreferrer" href="https://www.facebook.com/Smply-Deliver-110876137774251" target="_blank"> Facebook </a>
+                        <a className="footer-last-link" rel="noreferrer" href="https://www.instagram.com/smplydeliver/" target="_blank"> Instagram </a>
+                        <a className="footer-last-link" rel="noreferrer" href="https://www.linkedin.com/company/smplydeliver" target="_blank"> LinkedIn </a>
                     </div>
                 </div>
             </div>
